@@ -1,0 +1,33 @@
+body{
+    
+    background-image: url(images/VolFuego1.jpeg);
+    }
+
+
+h1{
+    text-align: center;
+    color: rgb(243, 238, 238);  
+    
+}
+
+h2{
+    color: rgb(66, 66, 248);
+    font-style: arial;
+    font-size: 1.8rem;
+    text-align: center;
+    
+}
+
+h3{
+    text-align: center;
+    color: aliceblue;
+}
+
+p{
+    color:rgb(83, 255, 80);
+    font-style: impact;
+    font-size: 2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 400px;
+} 

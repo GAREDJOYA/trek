@@ -1,0 +1,37 @@
+
+.contenedor{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: space-evenly ;
+   
+}
+
+.imagen{
+    width: 300px;
+    height: 210px;
+    margin: 0 3px;
+}
+.card{
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}
+
+.card h1{
+    font-size: 12px;
+}
+
+h2{
+    text-align: center;
+}
+
+.box img{
+    object-fit: cover;
+}
+
+
+@media(max-width:991px){
+    .contenedor{
+       flex-direction: column;
+       justify-content: flex-start;
+    }
+}
