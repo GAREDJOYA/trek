@@ -1,12 +1,44 @@
+*{
+    box-sizing: border-box;
+}
 body{
-    
+    padding: 0;
+    margin: 0;    
     background-image: url(images/VolFuego1.jpeg);
     }
 
+html{
+    font-size: 16px;
+    @media screen and (max-width: 540px){
+        font-size: 12px;
+        
+    }
+        
+    }
+
+
+.container{
+    max-width: 800px;
+    width: 100%;
+    height: 600px;  
+    margin: 0 auto;
+    margin-top: 80px;
+   
+
+    .titulo{
+        font-size: 2rem;
+    }
+    .parrafo{
+        font-size: 2rem;
+    }
+
+}
+
 
 h1{
-    text-align: center;
+    
     color: rgb(243, 238, 238);  
+    text-align: center;
     
 }
 
@@ -15,19 +47,21 @@ h2{
     font-style: arial;
     font-size: 1.8rem;
     text-align: center;
+   
     
 }
 
 h3{
-    text-align: center;
+   
     color: aliceblue;
+    text-align: center;
 }
 
 p{
     color:rgb(83, 255, 80);
     font-style: impact;
     font-size: 2rem;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 400px;
+    margin-top: 345px;
+    text-align: center;
+
 } 
